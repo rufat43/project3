@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=M+PLUS+1+Code:wght@300&family=Oswald:wght@700&family=Poiret+One&family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Schibsted+Grotesk&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gruppo&family=M+PLUS+1+Code:wght@300&family=Oswald:wght@700&family=Poiret+One&family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Schibsted+Grotesk&family=Ubuntu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -48,7 +48,7 @@ nav .nav {
     align-items: center;
     gap: 2rem;
     font-size: 1.5rem;
-    font-family: 'Gruppo', sans-serif ;
+    font-family: 'Gruppo', sans-serif;
 }
 
 .nav .nav-btn {
@@ -132,6 +132,21 @@ nav .nav {
 
 
 /* account start */
+.account-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 6rem;
+    height: 100vh;
+}
+
+.account img{
+    width: 100px;
+    height: 70px;
+    opacity: 0.5;
+}
 /* account end */
 
 
@@ -140,10 +155,107 @@ nav .nav {
 
 
 /* Developers Start */
+.developers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.developers-container{
+    width: 50%;
+    margin-left: 15rem;
+    padding-right: 30px;
+}
+
+.developers-text{
+    padding-bottom: 20px;
+}
+
+.developers-text h2{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(75, 76, 171, 1.00);
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
+.developers-text h1{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.developers-text p{
+    opacity: 0.5;
+}
+
+.developers-button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    width: 30%;
+    text-align: center;
+}
+
+.developers-button:hover{
+    background-color: #FAFAFA;
+}
+
+.developers-button a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.developers-button a{
+    color: #CF9C77;
+}
+
+.developers-img{
+    width: 50%;
+}
+
+.developers-img img{
+    width: 50%;
+    padding-left: 30px;
+    opacity: 0.7;
+}
 /* Developers End */
 
 
 /* Pricing Start */
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-img{
+    width: 50%;
+}
+
+.pricing-container{
+    width: 50%;
+}
+
+
 /* Pricing End */
 
 
