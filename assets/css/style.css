@@ -83,10 +83,10 @@ nav .nav {
 /* Home strat */
 .home {
     margin: 0rem 15rem;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: start;
-    height: 100vh;
 }
 
 .home-text {
@@ -341,22 +341,88 @@ nav .nav {
 
 /* Support Start */
 
+.support{
+    margin-top: 100px;
+}
 
 .support-div{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    margin: 0rem 15rem;
+    height: 100vh;
+    gap: 2rem;
 }
 
 .support-div a{
     text-decoration: none;
+
 }
 
 .support-section{
-    text-align: center;
+    text-align: start;
 }
 
+.support-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 3rem !important;
+    font-family: 'Anton', sans-serif;
+}
 
+.support-logo a{
+    color: #fafafa;
+    text-decoration: none;
+    transition: 0.5s;
+}
 
+.support-logo a:hover{
+    color: #CF9C77;
+    font-weight: 700;
+}
+
+.support-logo img{
+    width: 30%;
+    margin-left: -30px;
+    margin-top: -50px;
+}
+
+.support-h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    opacity: 0.6;
+    text-align: start;
+}
+
+.support-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.support-card a{
+    text-decoration: none;
+    font-weight: 100;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.support-card a:hover{
+    color: #CF9C77;
+    background-color: #fafafa;
+    transition: 0.5s;
+    border: 0;
+    border-radius: 10px;
+}
+
+.support-card p{
+    padding-left: 5px;
+    font-size: 16px;
+    opacity: 0.5;
+}
 /* Support End */
