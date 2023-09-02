@@ -336,10 +336,27 @@ nav .nav {
 .pricing-button a{
     color: #CF9C77;
 }
-
-
 /* Pricing End */
 
 
 /* Support Start */
+
+
+.support-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.support-div a{
+    text-decoration: none;
+}
+
+.support-section{
+    text-align: center;
+}
+
+
+
 /* Support End */
